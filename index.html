@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      
+      <!-- Input tasks part --> 
+      <header class="header">
+          <h2>TO-DO LIST</h2>       
+          <section class = "input_task_section">
+              <input 
+                     type = "text" 
+                     size = "80"
+                     id = "new_task_input"
+                     placeholder = "What's your new task?"/>
+              <input
+                     type = "button"
+                     size = "60"
+                     id="new_task_add_btn"
+                     value = "Add task"/>
+          </section>
+      </header>
+      
+      <!-- Tasks list part -->
+      <main>
+          <section class = "task_list">
+            <h2>Tasks</h2>
+            <div class = "empty_tasks">No tasks found</div>
+            <div class = "tasks"></div>
+            </div>
+          </section>
+      </main>
+
+      <script src="script.js"></script>
+  </body>
+</html>

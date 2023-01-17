@@ -1,0 +1,170 @@
+:root {
+    --app_background: #e0e0e0;
+    --white: #ffffff;
+    --btn_color: #c5c5c5;
+    --btn_color_hover: #acacac;
+}
+
+.none {
+    display: none !important;
+}
+
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: var(--app_background);
+}
+
+.header {
+    margin: auto;
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input_task_section {
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+}
+
+#new_task_input {
+    width: 78.5%;
+    padding: .4em;
+    background-color: var(--white);
+    border: none;
+    border-radius: .15rem;
+ }
+
+ #new_task_add_btn {
+    background-color: var(--btn_color);
+    width: 20%;
+    padding: .4em;
+    border: none;
+    border-radius: .15rem;
+    text-align: center;
+    float: right;
+}
+
+#new_task_add_btn:hover {
+    background-color: var(--btn_color_hover);
+    border-color: grey;
+
+}
+
+.empty_tasks {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.tasks {
+    width: 60%;
+    margin-top: 2%;
+    display: block;
+}
+
+.one_task {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.content {
+    background-color: var(--white);
+    width: 78.5%;
+}
+
+.buttons {
+    position: relative;
+}
+
+.edit {
+    background-color: var(--btn_color);
+    margin-left: 0.5%;
+    padding: .4em;
+    border: none;
+    border-radius: .15rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.delete {
+    background-color: var(--btn_color);
+    margin-left: 0.5%;
+    padding: .4em;
+    border: none;
+    border-radius: .15rem;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.task_list {
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.delete {
+    background-color: var(--btn_color);
+    margin-left: 0.5%;
+    padding: .4em;
+    border: none;
+    border-radius: .15rem;
+    text-align: center;
+}
+
+
+
+
+.edit:hover {
+    background-color: var(--btn_color_hover);
+    border-color: grey;
+}
+
+.delete:hover {
+    background-color: var(--btn_color_hover);
+    border-color: grey;
+}
+
+
+.text {
+    border: 0;
+    background-color: var(--app_background);
+}
+
+
+
